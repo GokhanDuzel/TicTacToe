@@ -9,6 +9,10 @@ const initialBoard = [
 
 function createGameBoard() {
     initialBoard.forEach((cell, index) => {
-        const cell = document.createElement('div');
-    })
+        const cellElem = document.createElement("div");
+        cellElem.classList.add("box");
+        gameboard.append(cellElem);
+    });
 }
+
+createGameBoard();
