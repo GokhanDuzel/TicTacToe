@@ -17,9 +17,25 @@ body {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100px;
     height: 100px;
     background-color: white;
     border: solid 2px black;
     box-sizing: border-box;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    border: 15px solid green;
+    border-radius: 50%;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border: 15px solid red;
 }
