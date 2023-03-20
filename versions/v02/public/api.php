@@ -1,17 +1,17 @@
 <?php
 require_once('_config.php');
 
-use Yatzy\Dice;
+$path = $_GET["action"] ?? "version";
 
-switch ($_GET["action"] ?? "version") {
-case "roll":
-    $d = new Dice();
-    $data = ["value" => $d->roll()];
+switch ($path) {
+case "/TicTacToe/new":
+    $game = new TicTacToe();
+    $json = $game->toEncodedJson();
     break;
-case "version":
+
 default:
-    $data = ["version" => "1.0"];
+    $json = json_encode(["error" => "Unknown path {$path}"]);
 }
 
 header("Content-Type: application/json");
-echo json_encode($data);
+echo $json;

@@ -1,28 +1,17 @@
-<?php
-require_once('_config.php');
-?>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TicTacToe</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="./assets/jquery.min.js"></script>
+        <script src="./assets/tictactoe_engine.js" defer></script>
+    </head>
+    <body>
 
-<html>
-  <head>
-    <script type="text/javascript" src="/assets/jquery-3.6.0.min.js"></script>
-  </head>
-  <body>
+        <div class="gameboard" id="gameboard"></div>
 
-    <div id="die1">--</div>
-    <button id="roll">Roll</button>
+        <p class="info" id="info"></p>
 
-    <script>
-      const die1 = document.getElementById("die1");
-      const roll = document.getElementById("roll");
-      roll.onclick = async function() {
-        let answer = $.ajax({
-          type: "GET",
-          url: "api.php?action=roll"
-        }).then(function(data) {
-          die1.innerHTML = data.value;
-        });
-      };
-    </script>
-
-  </body>
+    </body>
 </html>
