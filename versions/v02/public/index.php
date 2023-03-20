@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>TicTacToe</title>
-        <link rel="stylesheet" href="styles.css">
+        <link type="text/css" rel="stylesheet" href="./assets/styles.css">
         <script src="./assets/jquery.min.js"></script>
         <script src="./assets/tictactoe_engine.js" defer></script>
     </head>

@@ -65,3 +65,13 @@ function checkForWinner() {
 };
 
 createGameBoard();
+
+window.onload = function() {
+    $.ajax({
+      type: "GET",
+      url: `/api.php?action=/TicTacToe/new`,
+      success: function() {
+        TicTacToe.createGameBoard()
+      }
+    });
+}
