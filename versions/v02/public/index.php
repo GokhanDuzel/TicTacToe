@@ -1,18 +1,28 @@
 <?php
 require_once('_config.php');
+?>
 
-trait Dice {
-  public function roll() {
-    echo rand(0, 6);
-  }
-}
-class Dice1 {
-  use Dice;
-}
+<html>
+  <head>
+    <script type="text/javascript" src="/assets/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
 
+    <div id="die1">--</div>
+    <button id="roll">Roll</button>
 
-$d = new Dice1();
+    <script>
+      const die1 = document.getElementById("die1");
+      const roll = document.getElementById("roll");
+      roll.onclick = async function() {
+        let answer = $.ajax({
+          type: "GET",
+          url: "api.php?action=roll"
+        }).then(function(data) {
+          die1.innerHTML = data.value;
+        });
+      };
+    </script>
 
-for ($i=1; $i<=5; $i++) {
-  echo "ROLL {$i}: {$d->roll()}<br>";
-}
+  </body>
+</html>
