@@ -4,7 +4,7 @@ A game played by two people, each trying to make a line of three X's or three O'
 
 In our version, we replaced Multipliers with squares to create a funnier, 
 and more exciting game experience for users.
-If this isn't madness, what is?
+If this isn't madness, what is? :open_mouth: :open_mouth: :open_mouth:
 
 ## Colours
 
