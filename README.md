@@ -1,5 +1,5 @@
 # TicTacToe
 
-``` Python
-int i = 1
-```
+[Système de design](/docs/design_system.md)
+
+
