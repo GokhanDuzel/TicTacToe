@@ -6,6 +6,10 @@ In our version, we replaced 'X'/crosses with squares |_| (i am leaving the top l
 and more exciting game experience for users.
 If this isn't madness, what is? :open_mouth: :open_mouth: :open_mouth:
 
+## Versions
+V01: JavaScript
+V02: PHP
+
 
 ## [Système de design](/docs/design_system.md)
 
