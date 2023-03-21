@@ -1,10 +1,13 @@
 ### TicTacToe
 
-#[Système de design](/docs/design_system.md)
+##[Système de design](/docs/design_system.md)
 
-![TicTacToe initial game board!](/docs/assets/design_system/projectpic1.png "Tic-Tac-Toe initial gameboard")
-<img src="/docs/assets/design_system/projectpic1.png" alt="project picture 1" title="A cute kitten" width="150" height="100" /> 
+# Initial GameBoard
+<img src="/docs/assets/design_system/projectpic1.png" alt="project picture 1" title="initial Game Board" width="500" height="500" /> 
 
-![TicTacToe during game board!](/docs/assets/design_system/projectpic2.png "Tic-Tac-Toe: Whilst players are having fun! :)")
+# While the players are having fun of their life!!!
+<img src="/docs/assets/design_system/projectpic2.png" alt="project picture 2" title="initial Game Board" width="500" height="500" /> 
+
+
 
 
