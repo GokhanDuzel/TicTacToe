@@ -13,7 +13,7 @@ If this isn't madness, what is? :open_mouth: :open_mouth: :open_mouth:
 # Initial GameBoard
 <img src="/docs/assets/design_system/projectpic1.png" alt="project picture 1" title="initial Game Board" width="500" height="500" /> 
 
-# While the players are having fun of their life!!!
+# While the players are having fun!!!
 <img src="/docs/assets/design_system/projectpic2.png" alt="project picture 2" title="initial Game Board" width="500" height="500" /> 
 
 
