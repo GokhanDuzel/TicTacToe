@@ -7,7 +7,7 @@ and more exciting game experience for users.
 If this isn't madness, what is? :open_mouth: :open_mouth: :open_mouth:
 
 ## Versions
-V01: JavaScript\n
+V01: JavaScript /n
 V02: PHP
 
 
